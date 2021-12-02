@@ -1,0 +1,111 @@
+header {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+  width: 100%;
+  height: 90px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+header nav span {
+  width: 90%; 
+  max-width: 400px;
+
+  font: 700 32px 'Roboto', sans-serif;
+
+  margin-bottom: -7px;
+}
+
+header p {
+  width: 90%;
+  max-width: 400px;
+
+  font: 400 22px 'Roboto', sans-serif;
+  line-height: 32px;
+
+  margin: 32px 0;
+}
+
+header form {
+  width: 90%;
+  max-width: 400px;
+  height: 54px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  border-radius: 9px;
+}
+
+form input {
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  background: transparent;
+
+  border-left: 1px solid rgba(0, 0, 0, 0.20);
+  background-color: transparent;
+}
+
+form input:first-child {
+  border: 0;
+}
+
+form button {
+  height: 54px;
+
+  font: 700 16px 'Roboto', sans-serif;
+
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+  padding: 0 20px;
+
+  background: #665df5;
+  color: #fff;
+}
+
+section {
+  width: 100%;
+  min-height: calc(100vh - 272px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section img {
+  width: 90%;
+  max-width: 150px;
+}
+
+section span {
+  font: 700 25px 'Gowun Batang', sans-serif;
+}
+
+section article {
+  width: 90%;
+  max-width: 300px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section article span {
+  font: 400 22px 'Roboto', sans-serif;
+}

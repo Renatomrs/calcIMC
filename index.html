@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calcIMC</title>
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <span>calcIMC</span>
+    </nav>
+
+    <P>
+      Calcule seu índice de massa corporal
+    </P>
+
+    <form>
+      <input 
+        type="text"
+        id="weight"
+        placeholder="Peso"
+        maxlength="5"
+        autocomplete="off"
+      >
+                
+      <input 
+        type="tel"
+        id="tall"
+        placeholder="Altura"
+        maxlength="4"
+        autocomplete="off"
+      >
+    
+      <button type="button" onclick="calcIMC()">
+        Calcular
+      </button>
+    </form>
+  </header>
+
+  <section>
+    <img src="unknown.svg" alt="Icon" id="icon">
+
+    <span id="result">0</span>
+
+    <article>
+      <span id="status">Mensagem</span>
+    </article>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>

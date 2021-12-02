@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  font-family: 'Gowun Batang', serif;
+}
+
+body, input, button {
+  font: 400 16px 'Roboto', sans-serif;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px #fff inset;
+}
+
+input, button {
+  border: 0;
+}
